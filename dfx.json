@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "canisters": {
+    "payroll_backend": {
+      "type": "motoko",
+      "main": "contracts/payroll.mo"
+    },
+    "payroll_frontend": {
+      "dependencies": [
+        "backend",
+        "internet-identity"
+      ],
+      "source": [
+        "src/UN_frontend/dist"
+      ],
+      "type": "assets",
+      "source": ["out/"]
+    },
+    "internet_identity": {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaah-qcaiq-cai"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": ["https://ic0.app"],
+      "type": "persistent"
+    }
+  }
+}
