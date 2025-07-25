@@ -1,4 +1,4 @@
-## TalPay
+# TalPay
 A payroll Management system for Talanta AI for ease of hiring recruiting and rentention
 ## Features 
 
