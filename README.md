@@ -1,5 +1,10 @@
 # TalPay
 A payroll Management system for Talanta AI for ease of hiring recruiting and rentention
+
+### Slides 
+https://www.canva.com/design/DAGuML7m9YM/_edFZtiQuT8kYM1KrlzsPg/edit?utm_content=DAGuML7m9YM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## How it Works
 ## Features 
 
 ### 1. TalPay Token Implementation
